@@ -1,0 +1,99 @@
+@media only print {
+  @page {
+    size: letter landscape;
+    padding-top: 10px;
+  }
+
+  .sub-header {
+    width: 1090px;
+  }
+}
+
+.footrSinglePage {
+  position: fixed;
+  bottom: 0px;
+  left: 5px;
+  width: fit-content;
+}
+
+.subFooter {
+  width: 1100px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.bord {
+  width: 100%;
+}
+
+.text-emphasize {
+  font-weight: bold;
+}
+
+.text-emphasize-padding {
+  @extend .text-emphasize;
+  padding: 0rem 4rem;
+}
+
+.text-underline {
+  border-bottom: 2px solid black;
+}
+
+.text-underline-padding {
+  border-bottom: 2px solid black;
+  padding: 0rem 4rem;
+}
+
+.table-style {
+  height: 75px;
+}
+
+.border-all {
+  border: 2px solid gray;
+}
+
+.border-y {
+  border: 2px solid gray;
+  border-width: 2px 0px;
+}
+
+.border-z {
+  border: 2px solid gray;
+  border-width: 2px 2px 2px 0px;
+}
+
+.border-x {
+  border: 2px solid gray;
+  border-width: 0px 2px 2px 0px;
+}
+
+.border-l {
+  border: 2px solid gray;
+  border-width: 0px 0px 2px 2px;
+}
+
+.border-r {
+  border: 2px solid gray;
+  border-width: 2px 0px 0px 2px;
+}
+
+.border-t {
+  border: 2px solid gray;
+  border-width: 2px 0px 0px 0px;
+}
+
+.border-bt {
+  border: 2px solid gray;
+  border-width: 2px 0px 2px 0px;
+}
+
+.border-rtb {
+  border: 2px solid gray;
+  border-width: 2px 2px 2px 0px;
+}
+
+.border-u {
+  border: 2px solid gray;
+  border-width: 0px 2px 2px 2px;
+}

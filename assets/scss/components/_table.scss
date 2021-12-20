@@ -1,0 +1,19 @@
+.my-table {
+  overflow-y: auto;
+  overflow-x: auto;
+  font-size: 75%;
+  max-height: 400px;
+}
+
+.table {
+  overflow-y: scroll;
+  font-size: 11.3px;
+  margin-top: 3.5px;
+  max-height: 38rem;
+  font-weight: 400;
+}
+
+.inputStyle {
+  font-size: 10px;
+  margin: 3px;
+}

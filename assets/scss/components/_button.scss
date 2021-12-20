@@ -1,0 +1,33 @@
+/* Filter Status */
+.button-filter-status {
+  font-size: 75%;
+  width: 12rem;
+  // position: relative;
+  // right: 21px;
+}
+
+// Circular
+.button-circle {
+  box-shadow: 0px 10px 20px -10px #000000;
+  font-size: 12px;
+  border-radius: 15px;
+  width: 28px;
+  margin-bottom: 7px;
+}
+
+// Square
+.button-sq {
+  font-size: 12px;
+  margin: auto;
+}
+
+// Icon
+.button-icon {
+  font-size: 11px;
+}
+
+// Custom for Verify button
+.btn-verify {
+  width: 70%;
+  align-items: center;
+}

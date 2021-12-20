@@ -1,0 +1,120 @@
+.container {
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.btn-submit {
+  margin-top: 40px;
+  border: 0px;
+}
+
+.btn-submit:hover {
+  background: #00a651;
+  border: 0px;
+}
+
+.title {
+  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  display: block;
+  font-weight: 300;
+  font-size: 42px;
+  color: #00a651;
+  letter-spacing: 1px;
+}
+
+.bcard-login {
+  border: 0px;
+  border-radius: 12px;
+  padding: 1rem;
+  background-color: #fafafa;
+}
+
+.subtitle {
+  margin-bottom: 40px;
+  font-weight: 300;
+  font-size: 18px;
+  color: #526488;
+  word-spacing: 5px;
+  padding-bottom: 15px;
+}
+
+.links {
+  padding-top: 15px;
+}
+
+input:focus {
+  outline-width: 0px;
+  border-bottom: 2px solid #00a651;
+  transition: 0.4s;
+  border-radius: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
+}
+
+.email,
+.fullname,
+.password {
+  transition: 0.4s;
+  background: #fafafa;
+  border-bottom: 2px solid gray;
+  border-radius: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
+  display: block;
+  width: 100%;
+  text-align: left;
+  line-height: 40px;
+  margin-top: 20px;
+  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+// For First-Time Login
+.newpass {
+  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 330;
+  font-size: 35px;
+  color: #00a651;
+  letter-spacing: 1px;
+  margin-bottom: 3rem;
+}
+
+.field-icon {
+  float: right;
+  margin-left: -25px;
+  margin-top: 30px;
+  position: relative;
+  z-index: 2;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  color: gray;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+
+.main {
+  margin-top: 0px;
+  margin-left: 0px; /* Same as the width of the sidenav */
+  margin-right: 0px;
+  margin-bottom: -50px;
+  overflow: hidden;
+}

@@ -1,0 +1,43 @@
+// utils
+@import "utils/variables";
+
+// vendors
+@import "vendors/bootstrap";
+
+// base
+@import "base/body";
+@import "base/number-field";
+@import "base/nuxt-table";
+@import "base/typography";
+@import "base/ul";
+
+//pages
+@import "pages/browser-compatibility";
+@import "pages/login";
+@import "pages/logs";
+@import "pages/main-pages";
+@import "pages/pdf";
+@import "pages/reports";
+@import "pages/transaction";
+
+// components
+@import "components/alert";
+@import "components/badge";
+@import "components/button";
+@import "components/card";
+@import "components/checkbox";
+@import "components/daterange-picker";
+@import "components/dropdown";
+@import "components/form-input";
+@import "components/horizontal-line";
+@import "components/modal";
+@import "components/pagination";
+@import "components/scrollbar";
+@import "components/spinner";
+@import "components/tab";
+@import "components/table";
+@import "components/vuelidate-form";
+
+// sidebar
+@import "layouts/sidebar";
+@import "layouts/responsive-screen";

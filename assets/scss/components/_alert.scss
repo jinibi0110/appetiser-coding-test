@@ -1,0 +1,22 @@
+.alert {
+  position: fixed;
+  top: 90%;
+  right: 1%;
+  z-index: 10000;
+}
+
+.alert-danger {
+  color: #fff;
+  background-color: #d14d4d;
+  border-color: #fff;
+}
+
+.alert-success {
+  color: #fff;
+  background-color: #00a651;
+  border-color: #fff;
+}
+
+.icon-alert {
+  font-size: 20px;
+}

@@ -1,0 +1,50 @@
+.cardShadow {
+  box-shadow: 0px 10px 30px -23px black;
+}
+
+.mainPages {
+  margin-top: 30px;
+  margin-left: 10px; /* Same as the width of the sidenav */
+  margin-right: 10px;
+  margin-bottom: -50px;
+  padding: 5px 5px;
+}
+
+a:hover {
+  color: #00a651;
+  text-decoration: underline;
+  background-color: rgb(250, 250, 250);
+}
+
+a {
+  color: #5f6368;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+  color: #00a651;
+  background-color: white;
+  border-color: #f7f7f7 #f7f7f7 #00a651 #f7f7f7;
+  border-width: 0px 0px 4px 0px;
+  border-radius: 0px;
+  font-weight: bold;
+}
+.nav-tabs .nav-link {
+  border-width: 0px 0px 4px 0px;
+
+  // &:hover{
+  // border-width: 0;
+  // }
+}
+
+.card-header {
+  // padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+.cardCheckInfo{
+  margin-bottom: 16px;
+}

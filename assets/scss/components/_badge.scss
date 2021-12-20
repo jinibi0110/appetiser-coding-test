@@ -1,0 +1,20 @@
+.badge-font-size {
+  font-size: 15px;
+}
+
+/* Notification Badge */
+.badge_notif {
+  width: 20px;
+  height: 20px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5px;
+  background: red;
+  font-weight: bold;
+  position: fixed;
+  top: 135px;
+  right: 45px;
+  font-size: 12px;
+}

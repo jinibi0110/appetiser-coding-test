@@ -1,0 +1,83 @@
+.form {
+  font-size: 13px;
+}
+
+.input-font {
+  font-size: 10px;
+}
+
+.form-text {
+  font-size: 10px;
+  margin: 0px;
+  border-radius: 0;
+  border-width: 0px 0px 1.2px 0px;
+}
+
+input:-internal-autofill-selected {
+  appearance: menulist-button;
+  background-color: rgb(232, 240, 254) !important;
+  background-image: none !important;
+  color: -internal-light-dark(black, white) !important;
+}
+
+// Required Field
+.asterisk {
+  font-size: 12px;
+  color: #00a651;
+}
+
+.container1 {
+  padding: 40px 20px;
+  text-align: center;
+  display: block;
+}
+
+.pinBox {
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+
+  border-bottom: 2px solid grey;
+  height: 40px;
+  position: center;
+  width: 140px;
+  background-image: url("https://rgwit.ams3.digitaloceanspaces.com/images/box.svg");
+}
+
+.pinEntry {
+  padding: 2px 11px;
+  font-family: courier, monospaced;
+  font-size: xx-large;
+  border: none;
+  outline: none;
+  width: 6em;
+  letter-spacing: 15px;
+  background-color: transparent;
+}
+
+#form {
+  max-width: 550px;
+  margin: 25px auto 0;
+
+  input {
+    margin: 0 5px;
+    text-align: center;
+    line-height: 80px;
+    font-size: 50px;
+    border: solid 1px #ccc;
+    box-shadow: 0 0 5px #ccc inset;
+    outline: none;
+    width: 11%;
+    transition: all 0.2s ease-in-out;
+    border-radius: 3px;
+
+    &:focus {
+      border-color: #00a651;
+      box-shadow: 0 0 5px #00a651 inset;
+    }
+
+    &::selection {
+      background: transparent;
+    }
+  }
+}

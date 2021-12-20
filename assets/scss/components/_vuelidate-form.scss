@@ -1,0 +1,7 @@
+.was-validated .form-control:invalid,
+.was-validated .form-control:valid,
+.form-control.is-invalid,
+.form-control.is-valid {
+  background-position: right calc(0.375em + 0.1875rem) center;
+  transition: none;
+}
